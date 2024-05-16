@@ -1,0 +1,22 @@
+.input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.productivitateTable {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .productivitateTable th,
+  .productivitateTable td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .productivitateTable th {
+    background-color: #f2f2f2;
+    color: #333;
+  }

@@ -1,0 +1,17 @@
+.personalTable {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .personalTable th,
+  .personalTable td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .personalTable th {
+    background-color: #f2f2f2;
+    color: #333;
+  }

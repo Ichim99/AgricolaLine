@@ -1,0 +1,17 @@
+.stockTable {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stockTable th,
+  .stockTable td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stockTable th {
+    background-color: #f2f2f2;
+    color: #333;
+  }

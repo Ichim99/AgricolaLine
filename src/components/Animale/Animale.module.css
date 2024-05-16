@@ -1,0 +1,17 @@
+.animaleTable {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .animaleTable th,
+  .animaleTable td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .animaleTable th {
+    background-color: #f2f2f2;
+    color: #333;
+  }

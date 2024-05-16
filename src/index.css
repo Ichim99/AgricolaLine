@@ -7,10 +7,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E5D9B6;
+  
+  background-image: url('./components/priscilla-du-preez-tGtWKDdicn4-unsplash.jpg');
+  background-size: cover;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+   
 }

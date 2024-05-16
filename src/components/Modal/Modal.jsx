@@ -1,17 +1,20 @@
 import React from 'react';
-import style from './Modal.module.css';
+import style from './Modal.module.css'
 
-export const Modal = ({ isOpen, onClose, children }) => {
-  if (!isOpen) {
-    return null;
-  }
-
+const Modal = ({ id, title, isOpen, onClose, children }) => {
   return (
-    <div className={style.modal}>
+    <div id={`${id}Modal`} className={style.modal} style={{ display: isOpen ? 'block' : 'none' }}>
       <div className={style.modal_content}>
-        <span className={style.close} onClick={onClose}>&times;</span>
+        <div className={style.title}>
+         <h2 >{title}</h2> 
+         <span className={style.close} onClick={onClose}>&times;</span>
+        
+        </div>
+        
         {children}
       </div>
     </div>
   );
 }
+
+export default Modal;
