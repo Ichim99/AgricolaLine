@@ -55,7 +55,6 @@ export function Personal() {
 
   return (
     <div>
-      <h2>Personal</h2>
       <h3>Ore de lucru înregistrate:</h3>
       <table className={style.personalTable}>
         <thead>

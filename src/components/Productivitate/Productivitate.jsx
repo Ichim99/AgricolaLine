@@ -74,7 +74,7 @@ export function Productivitate() {
         <thead>
           <tr>
             <th>Data</th>
-            <th>Cantitate</th>
+            <th>Cantitate [l]</th>
             <th>Acțiuni</th>
           </tr>
         </thead>
